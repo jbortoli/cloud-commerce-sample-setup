@@ -1,5 +1,5 @@
 {
-    "commerceSuiteVersion": "2211",
+    "commerceSuiteVersion": "2211.10",
     "enableImageProcessingService": true,
     "extensions": [
         "cloudmediaconversion",
@@ -379,7 +379,7 @@
                     "value": "${ccv2.services.api.url.0}/acceleratorservices/sop-mock/process"
                 },
                 {
-                    "key": "corsfilter.default.allowedOriginPatterns",
+                    "key": "corsfilter.default.allowedOrigins",
                     "value": "*"
                 },
                 {
@@ -387,7 +387,7 @@
                     "value": "GET"
                 },
                 {
-                    "key": "corsfilter.acceleratorservices.allowedOriginPatterns",
+                    "key": "corsfilter.acceleratorservices.allowedOrigins",
                     "value": "*"
                 },
                 {
@@ -403,7 +403,7 @@
                     "value": "x-anonymous-consents"
                 },
                 {
-                    "key": "corsfilter.modeltacceleratorservices.allowedOriginPatterns",
+                    "key": "corsfilter.modeltacceleratorservices.allowedOrigins",
                     "value": "*"
                 },
                 {
@@ -419,7 +419,7 @@
                     "value": "x-anonymous-consents"
                 },
                 {
-                    "key": "corsfilter.assistedservicewebservices.allowedOriginPatterns",
+                    "key": "corsfilter.assistedservicewebservices.allowedOrigins",
                     "value": "*"
                 },
                 {
@@ -435,7 +435,7 @@
                     "value": "x-anonymous-consents"
                 },
                 {
-                    "key": "corsfilter.commercewebservices.allowedOriginPatterns",
+                    "key": "corsfilter.commercewebservices.allowedOrigins",
                     "value": "*"
                 },
                 {
@@ -451,7 +451,7 @@
                     "value": "x-anonymous-consents occ-personalization-id occ-personalization-time"
                 },
                 {
-                    "key": "corsfilter.permissionswebservices.allowedOriginPatterns",
+                    "key": "corsfilter.permissionswebservices.allowedOrigins",
                     "value": "*"
                 },
                 {
@@ -463,7 +463,7 @@
                     "value": "GET"
                 },
                 {
-                    "key": "corsfilter.personalizationwebservices.allowedOriginPatterns",
+                    "key": "corsfilter.personalizationwebservices.allowedOrigins",
                     "value": "*"
                 },
                 {
@@ -535,10 +535,6 @@
                 {
                     "name": "b2bordermanagementwebservices",
                     "contextPath": "/b2bordermanagementwebservices"
-                },
-                {
-                    "name": "datahubadapter",
-                    "contextPath": "/datahubadapter"
                 }
             ]
         },
