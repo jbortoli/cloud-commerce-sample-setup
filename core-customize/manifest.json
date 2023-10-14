@@ -379,7 +379,7 @@
                     "value": "${ccv2.services.api.url.0}/acceleratorservices/sop-mock/process"
                 },
                 {
-                    "key": "corsfilter.default.allowedOrigins",
+                    "key": "corsfilter.default.allowedOriginPatterns",
                     "value": "*"
                 },
                 {
@@ -387,7 +387,7 @@
                     "value": "GET"
                 },
                 {
-                    "key": "corsfilter.acceleratorservices.allowedOrigins",
+                    "key": "corsfilter.acceleratorservices.allowedOriginPatterns",
                     "value": "*"
                 },
                 {
@@ -403,7 +403,7 @@
                     "value": "x-anonymous-consents"
                 },
                 {
-                    "key": "corsfilter.modeltacceleratorservices.allowedOrigins",
+                    "key": "corsfilter.modeltacceleratorservices.allowedOriginPatterns",
                     "value": "*"
                 },
                 {
@@ -419,7 +419,7 @@
                     "value": "x-anonymous-consents"
                 },
                 {
-                    "key": "corsfilter.assistedservicewebservices.allowedOrigins",
+                    "key": "corsfilter.assistedservicewebservices.allowedOriginPatterns",
                     "value": "*"
                 },
                 {
@@ -435,7 +435,7 @@
                     "value": "x-anonymous-consents"
                 },
                 {
-                    "key": "corsfilter.commercewebservices.allowedOrigins",
+                    "key": "corsfilter.commercewebservices.allowedOriginPatterns",
                     "value": "*"
                 },
                 {
@@ -451,7 +451,7 @@
                     "value": "x-anonymous-consents occ-personalization-id occ-personalization-time"
                 },
                 {
-                    "key": "corsfilter.permissionswebservices.allowedOrigins",
+                    "key": "corsfilter.permissionswebservices.allowedOriginPatterns",
                     "value": "*"
                 },
                 {
@@ -463,7 +463,7 @@
                     "value": "GET"
                 },
                 {
-                    "key": "corsfilter.personalizationwebservices.allowedOrigins",
+                    "key": "corsfilter.personalizationwebservices.allowedOriginPatterns",
                     "value": "*"
                 },
                 {
