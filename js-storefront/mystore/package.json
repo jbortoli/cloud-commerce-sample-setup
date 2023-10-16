@@ -30,6 +30,7 @@
     "@spartacus/cart": "~6.3.0",
     "@spartacus/checkout": "~6.3.0",
     "@spartacus/core": "~6.3.0",
+    "@spartacus/customer-ticketing": "^6.3.0",
     "@spartacus/order": "~6.3.0",
     "@spartacus/product": "~6.3.0",
     "@spartacus/smartedit": "~6.3.0",
@@ -50,6 +51,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^15.2.9",
+    "@angular-devkit/schematics": "^15.2.4",
     "@angular/cli": "~15.2.9",
     "@angular/compiler-cli": "^15.2.0",
     "@spartacus/schematics": "^6.3.0",

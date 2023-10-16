@@ -15,6 +15,7 @@ import { SmartEditFeatureModule } from './features/smartedit/smart-edit-feature.
 import { ProductVariantsFeatureModule } from './features/product/product-variants-feature.module';
 import { ProductImageZoomFeatureModule } from './features/product/product-image-zoom-feature.module';
 import { AsmFeatureModule } from './features/asm/asm-feature.module';
+import { CustomerTicketingFeatureModule } from './features/customer-ticketing/customer-ticketing-feature.module';
 
 @NgModule({
   declarations: [],
@@ -80,7 +81,8 @@ import { AsmFeatureModule } from './features/asm/asm-feature.module';
     SmartEditFeatureModule,
     ProductVariantsFeatureModule,
     ProductImageZoomFeatureModule,
-    AsmFeatureModule
+    AsmFeatureModule,
+    CustomerTicketingFeatureModule
   ]
 })
 export class SpartacusFeaturesModule { }

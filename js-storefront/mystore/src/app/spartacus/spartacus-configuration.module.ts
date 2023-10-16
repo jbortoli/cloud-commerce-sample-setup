@@ -11,7 +11,7 @@ import { defaultCmsContentProviders, layoutConfig, mediaConfig } from "@spartacu
     backend: {
       occ: {
         baseUrl: 
-        'https://api.clwfyft1x1-csamer2021-d9-public.model-t.cc.commerce.ondemand.com/',
+        'https://api.clwfyft1x1-csamer2021-d9-public.model-t.cc.commerce.ondemand.com',
       }
     },
   }), provideConfig(<SiteContextConfig>{
